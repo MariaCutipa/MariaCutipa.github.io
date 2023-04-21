@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+Pro&family=Staatliches&display=swap');
+
+body{
+    background-color:#303740;
+    margin: 50px;
+}
+h1{
+    color: #5EC8F2;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+}
+h2,h3{
+    color: #5EC8F2;
+    font-family: 'Staatliches', cursive;
+    font-size: 28px;
+}
+.sombra img{
+    margin: 0px 0px 70px 0px;
+    width: 65%;
+    float: left;
+    margin-left:40px ;
+    clip-path: circle(50% at center);
+    clip: 0px 10px 50px rgb(62, 195, 228);
+}
+.imagenes img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    display: inline-flex;
+}
+p, ul{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: aliceblue;
+    font-size: 18px;
+}
+a{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #F2E49B;
+    font-size: 18px;
+    text-decoration: none;
+}
+.caja0,.contenido{
+    float: left;
+}
+.caja0{
+    width: 38%;
+}
+.contenido{
+    width: 60%;
+}
+.caja{
+    display: table;
+    background-color: hsla(199, 63%, 75%, 0.171);
+    width: 98%;
+    border: 2px solid #5dc5fb;
+    border-radius: 10px;
+    padding: 0px 15px 0px 15px;
+    margin: 10px 0px 10px 0px;
+}
+
+.sombra{
+    filter: drop-shadow(10px 9px 0 #5dc5fb);
+}
+.caja00{
+    display: table-row;
+}
+.git{
+    width: 50%;
+    border: 2px solid #5dc5fb;
+    border-radius: 5px;
+    background-color:#5dc5fb;
+    padding: 3px;
+    float: left;
+    margin-left:70px ;
+    text-align: center;
+}
+.git a{
+    color: aliceblue;
+    font-size: 21px;
+}
